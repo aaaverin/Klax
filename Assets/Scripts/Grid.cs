@@ -95,7 +95,7 @@ namespace Klax.Core
 							{
 								if (!droppedNode.Winner)
 								{
-									droppedNodes.Add(droppedNode); //order is inportent
+									droppedNodes.Add(droppedNode); //order is important
 									Unlink(droppedNode);
 									
 									nodes[point.x, i] = null;
